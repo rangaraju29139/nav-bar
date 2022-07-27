@@ -11,9 +11,10 @@ navToggle.addEventListener("click", () => {
   console.log(links.classList);
   const list = links.classList;
 
-  if (list.contains("show-links")) {
-    list.remove("show-links");
-  } else {
-    list.add("show-links");
-  }
+  //   if (list.contains("show-links")) {
+  //     list.remove("show-links");
+  //   } else {
+  //     list.add("show-links");
+  //   }
+  list.toggle("show-links");
 });
